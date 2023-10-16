@@ -1,0 +1,50 @@
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.stats {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.board {
+	margin: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 400px;
+}
+
+.field {
+	width: 75px;
+	height: 75px;
+	border: 1px solid #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	background-color: #f0f0f0;
+}
+
+.field.current {
+	background-color: #00ff00;
+	border-color: #b44607;
+	border-style: dashed;
+	color: #000;
+}
+
+.field.special {
+	background-color: #ffe46b;
+	color: #000;
+}
+
+button {
+	margin: 20px 0;
+	background-color: #3b6da7;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+}
